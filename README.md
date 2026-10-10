@@ -31,7 +31,7 @@ The trained model is not stored directly in the Git repository. It is available 
 
 The pretrained U-Net model is provided as a release asset.
 
-Download unet_model.pth from the **Releases** section of this repository.
+Download model.pth from the **Releases** section of this repository.
 
 After downloading it, place it in the project root:
 
