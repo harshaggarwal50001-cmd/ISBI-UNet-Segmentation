@@ -31,7 +31,7 @@ The trained model is not stored directly in the Git repository. It is available 
 
 The pretrained U-Net model is provided as a release asset.
 
-Download model.pth from the **Releases** section of this repository.
+Download unet_model.pth from the **Releases** section of this repository.
 
 After downloading it, place it in the project root:
 
@@ -64,13 +64,13 @@ The database connection URL is stored in a *.env* file.
 
 Create a .env file in the project root and add:
 
-DATABASE_URL=your_database_url
+DATABASE_URL=url
 
 ## PostgreSQL
 
 The project uses PostgreSQL for storing prediction related information.
 
-PostgreSQL is run using Docker. Make sure Docker Desktop is installed and the PostgreSQL container is running before starting the backend.
+PostgreSQL is run using Docker. Docker Desktop is installed and the PostgreSQL container is running before starting the backend.
 
 ## Running the Backend
 
