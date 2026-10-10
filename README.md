@@ -39,14 +39,14 @@ ISBI2012-UNet/
  backend/
  frontend/
  model_code.py
- best_unet_model.pth
+ unet_model.pth
  requirements.txt
 
 ## Setup
 
 Clone the repository:
-git clone  https://github.com/harshaggarwal50001-cmd/ISBI-UNet-Segmentation.git
-cd ISBI2012-UNet
+git clone  https://github.com/harshaggarwal50001-cmd/ISBI-UNet-Segmentation.git;
+cd ISBI-UNet-Segmentation
 
 Create a virtual environment:
 python -m venv venv
@@ -64,7 +64,7 @@ The database connection URL is stored in a *.env* file.
 
 Create a .env file in the project root and add:
 
-DATABASE_URL=database_url
+DATABASE_URL=your_database_url
 
 ## PostgreSQL
 
@@ -97,7 +97,7 @@ Input Image -> Streamlit Frontend -> FastAPI Backend -> U-Net Model -> Segmentat
 
 ## Evaluation
 
-The predicted segmentation can be compared with the original segmentation using image segmentation evaluation metrics.
+Model's segmentation results are evaluated using Dice Score, Intersection over Union (IoU), and Rand Score.
 
 ## Notes
 
