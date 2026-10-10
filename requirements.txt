@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+requests
+python-multipart
+sqlalchemy
+psycopg2-binary
+torch
+torchvision
+einops
+Pillow
+numpy
+scikit-learn
+python-dotenv
